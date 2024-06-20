@@ -16,7 +16,7 @@ botaoEnviar.addEventListener('click', () => {
 
     if (valorEmail === usuario.email && valorSenha === usuario.senha) {
         console.log('Usuário autenticado com sucesso!');
-        window.location.href = 'https://www.reddit.com/r/blwhale/s/6TrsB9Bx2L';
+        window.location.href = 'https://discord.gg/Skj2rpyPmT';
     } else {
         alert('Falha na autenticação. Email ou senha incorretos.');
     }
