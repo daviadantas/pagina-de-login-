@@ -1,6 +1,6 @@
 let usuario = {
     email: 'DarthVader',
-    senha: 'pneumoultramicroscopicossilicovulcanoconiótico'
+    senha: 'pneumonoultramicroscopicsilicovolcanoconiosis'
 };
 
 const pegarEmail = document.getElementById('email');
