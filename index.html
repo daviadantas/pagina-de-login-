@@ -3,12 +3,40 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <title>...</title>
+
+    <style>
+        body {
+            background-color: black;
+        }
+        .full-height {
+            height: 100vh;
+        }
+        .login-box {
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+    </style>
 </head>
 <body>
-    <input type="email" placeholder="Email" id="email">
-    <input type="password" placeholder="Senha" id="senha">
-    <button id="enviar">Enviar</button>
+    <div class="container full-height d-flex justify-content-center align-items-center">
+        <div class="login-box text-center">
+            <h1>Login</h1>
+            <div class="form-group">
+                <input type="text" class="form-control mb-2" placeholder="Usuário" id="email">
+                <p>DICA: Quem Anakin Skywalker acaba se tornando</p>
+            </div>
+            <div class="form-group">
+                <input type="password" class="form-control mb-2" placeholder="Senha" id="senha">
+                <p>DICA: MÚSICA FAVORITA DE RYAN</p>
+            </div>
+            <button id="enviar" class="btn btn-primary">Enviar</button>
+        </div>
+    </div>
     <script src="main.js"></script>
 </body>
 </html>

@@ -1,6 +1,6 @@
 let usuario = {
-    email: 'ryan@gmail.com',
-    senha: 'batata'
+    email: 'DarthVader',
+    senha: 'pneumonoultramicroscopicsilicovolcanoconiosis'
 };
 
 const pegarEmail = document.getElementById('email');
@@ -16,7 +16,7 @@ botaoEnviar.addEventListener('click', () => {
 
     if (valorEmail === usuario.email && valorSenha === usuario.senha) {
         console.log('Usuário autenticado com sucesso!');
-        window.location.href = 'https://youtube.com/shorts/ZEkD1Bpxu1M?si=uRSL6Q_f2XANbroW';
+        window.location.href = 'https://www.reddit.com/r/blwhale/s/6TrsB9Bx2L';
     } else {
         alert('Falha na autenticação. Email ou senha incorretos.');
     }
